@@ -26,3 +26,8 @@ class Solution:
 '''
 方法二：类似冒泡的思想，相互交换
 '''
+
+'''
+方法三：列表推导式，一行搞定
+'''
+res=[m for m in array if m%2!=0]+[n for n in array if n%2==0]
